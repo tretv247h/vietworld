@@ -1,0 +1,299 @@
+# START TEXT FILE #
+
+# +
+# Name
+# Image
+# Link1 || Link2
+# Notes
+
+
+*
+[COLOR cyan]Live |[/COLOR]  Việt Hải Ngoại 2
+special://home/addons/plugin.tivi9999.viettv24/icon.png
+plugin://plugin.tivi9999.viettv24
+
+*
+[COLOR lime]App |[/COLOR]  UNO IPTV
+https://s3.amazonaws.com/itvviet/apk/com.vietuu.hlsplayer.png
+StartAndroidActivity(com.vietuu.hlsplayer)
+
+*
+[COLOR teal]Play |[/COLOR]  VietTube Channels :: Thời Sự
+https://s3.amazonaws.com/v137/plugin.video.viettube.channels/thoisu.jpg
+ActivateWindow(10025,&quot;plugin://plugin.video.viettube.channels/?foldername=Th%e1%bb%9di%20S%e1%bb%b1&amp;id=0&amp;mode=folder&quot;,return)
+
+-
+[COLOR yellowgreen]Mix  |[/COLOR]  VietTV 24 Launcher :: Truyền hình hải ngoại
+special://home/addons/plugin.video.kodi4vn.viettv24/icon.png
+plugin://plugin.video.kodi4vn.launcher
+
+-
+[COLOR lime]App |[/COLOR]  VIETTV 24
+https://s3.amazonaws.com/itvviet/apk/com.viettv24.iptv.png
+StartAndroidActivity(com.viettv24.iptv)
+
+
+*
+[COLOR grey] ---- + ------------------------------------------------------------------[/COLOR]
+.
+.
+
+*
+[COLOR cyan]USA: West Coast[/COLOR]
+.
+.
+
++
+[COLOR white]IBC[/COLOR] --  Westminster, CA
+http://truyenhinhmy.weebly.com/uploads/9/1/1/9/9119445/728062016.jpg
+rtmp://liveplay3.malimarcdn.com:1935/ibcnews playpath=ibcnews.sdp swfUrl=http://www.ibcnews.tv/content/scripts/media/strobe/StrobeMediaPlayback.swf pageUrl=http://www.ibcnews.tv/ live=true timeout=10
+|| http://54.152.24.55:1935/ibc/myStream/playlist.m3u8
+
++
+[COLOR white]KVLA [/COLOR] -- Huntington Beach, CA
+http://www.saigontv.tv/saigon/wp-content/uploads/2015/02/KVLAlogo640x360.png
+resolve://viettv24@kvla
+|| http://54.152.24.55:1935/kvla/myStream/playlist.m3u8
+
++
+[COLOR white]Little Saigon TV[/COLOR] -- Westminster, CA
+https://pbs.twimg.com/profile_images/1730809208/LSTVlogo.jpg
+plugin://plugin.video.youtube/play/?video_id=-5Jd5Q4rwM8 || resolve://viettv24@lstv
+
++
+[COLOR white]Quê Hương[/COLOR] -- San Jose, CA
+http://www.quehuongmedia.com/images/240_LogoTest_copy.gif
+PlayMedia(&quot;plugin://plugin.video.livestream/?url=%2Flive_now&amp;mode=104&amp;name=%5BCOLOR%3DFF00B7EB%2F%5Dquehuong+live%5B%2FCOLOR%5D&amp;icon=http%3A%2F%2Fimg.new.livestream.com%2Fevents%2F000000000035079b%2F23667be5-31bf-42df-bb9a-dd7a7c67d7be_240.jpg&amp;event_id=3475355&amp;owner_id=8536579&amp;video_id=LIVE&quot;)
+|| rtmp://vf10.aditmedia.net/ingest//ius_000130
+
++
+[COLOR white]S Channel[/COLOR] -- (Southern) CA
+https://yt3.ggpht.com/-KGReGD9glxw/AAAAAAAAAAI/AAAAAAAAAAA/VRYeIT3CJPk/s300-c-k-no-rj-c0xffffff/photo.jpg
+resolve://viettv24@schannel || http://64.71.129.2:8080/hls/ius_000114.m3u8
+
++
+[COLOR white]Saigon TV[/COLOR] -- Westminster, CA
+https://lh3.googleusercontent.com/-OL4LIWM9P34/AAAAAAAAAAI/AAAAAAAAACU/eRTEX2eQt9U/photo.jpg
+http://63.143.59.125:1935/live/myStream/playlist.m3u8 || resolve://viettv24@sgtv
+|| http://origin3-edge2.yourstreamlive.com:1935/live/yourstreamlive/amlst:out_1651_211xdnzd/playlist.m3u8 
+
++
+[COLOR white]SET[/COLOR] -- Orange County, CA
+http://sbtn.co/images/set-sbtn-logo2.png
+resolve://viettv24@set
+|| http://54.152.24.55:1935/vietset574tvv/myStream/playlist.m3u8
+
++
+[COLOR white]VBS[/COLOR] -- Huntington Beach, CA
+https://lh5.ggpht.com/ogmrnURRik6lzvDiKEtW3QbKpi9R5mOS82enqqS4NdpDv3EwI3JALRCjkr_q05SVXQ=w300
+http://uni6rtmp.tulix.tv:1935/vbstv/vbsabr.smil/playlist.m3u8 || resolve://viettv24@vbstv
+
++
+[COLOR white]ViệtBay[/COLOR] -- San Jose, CA
+http://www.vietbay.tv/images/file/tplyBIXp0QgBAikO/vietbay-television-logo.png
+http://64.71.129.2:8080/hls/ius_000131.m3u8
+
++
+[COLOR white]VietFace TV[/COLOR] -- Fountain Valley, CA
+http://vietfacetv.com/wp-content/uploads/2012/11/vietface_logo.png
+resolve://viettv24@vface
+
++
+[COLOR white]Việt Mỹ TV[/COLOR] -- Garden Grove, CA
+https://apkplz.com/storage/images/com/vietmy/vietmytelevision/300/vietmytv.png
+http://68.235.37.11:1935/vietmagazine/vietmagazine/playlist.m3u8
+
++
+[COLOR white]VietNews TV[/COLOR] -- San Diego, CA
+http://asianculturalfestivalsd.com/wp-content/uploads/2013/03/VNTV-logo.s.jpg
+http://54.152.24.55:1935/VietNews/myStream/playlist.m3u8
+
++
+[COLOR white]Việt Phố TV[/COLOR] -- Palmdale, CA
+http://www.vietphotv.net/images/ad/20160120120103rerCpZ3CnG.png
+resolve://viettv24@vietpho
+
++
+[COLOR white]Vietoday[/COLOR] -- San Jose, CA
+http://www.gazefi.com/viettodaytv/sites/all/themes/businessconnect/logo.png
+PlayMedia(&quot;plugin://plugin.video.livestream/?url=%2Flive_now&amp;mode=104&amp;name=%5BCOLOR%3DFF00B7EB%2F%5Dvttv.05%5B%2FCOLOR%5D&amp;icon=http%3A%2F%2Fimg.new.livestream.com%2Fevents%2F00000000003980df%2Fe4245b04-d011-4259-8013-ec7ac9f87546_57240.jpg&amp;event_id=3768543&amp;owner_id=11617763&amp;video_id=LIVE&quot;)
+
++
+[COLOR white]VietV LA[/COLOR] -- Los Angeles, CA
+http://vietv.com/sites/all/themes/vietv/logo.png
+resolve://viettv24@vietvla
+
++
+[COLOR white]VNA[/COLOR] -- Garden Grove, CA
+http://vnatv573.com/images/file/rl8wDvfy0QgBAtZn/w278/vnatv573-logo.png
+resolve://viettv24@vnatv || http://stream.onworldtv.com/edge/liveorigin/vna/index.m3u8
+|| http://origin.onworldtv.com:1935/liveorigin/vna/playlist.m3u8 || http://54.152.24.55:1935/vnatv/myStream/playlist.m3u8 
+
++
+[COLOR white]VStar TV[/COLOR] -- Westminster, CA
+http://img.onworldtv.com/460x260/poster/2015/05/19/939231-vstartv_logo.jpg
+http://stream.onworldtv.com/edge/liveorigin/vstartv/index.m3u8
+|| http://origin.onworldtv.com:1935/liveorigin/vstartv/playlist.m3u8
+
+
+*
+[COLOR cyan]USA: Southern[/COLOR]
+.
+.
+
++
+[COLOR white]BYN[/COLOR] -- Houston, TX
+http://www.byntv.com/images/logo/byn270w.png
+http://stream.onworldtv.com/edge/liveorigin/byn/index.m3u8
+|| http://origin.onworldtv.com:1935/liveorigin/byn/playlist.m3u8
+
++
+[COLOR white]SBTN[/COLOR] -- Houston, TX
+http://www.ethnicchannels.com/wp-content/files_mf/sbtnlogo_hires86.png
+http://stream.onworldtv.com/edge/liveorigin/sbtn/index.m3u8
+|| http://origin.onworldtv.com:1935/liveorigin/sbtn/playlist.m3u8
+
++
+[COLOR white]SGN TV[/COLOR] -- Houston, TX
+https://static.wixstatic.com/media/bd5f7e_ab965e50c6eb46bc9baa6a522e85ea83.png/v1/fill/w_204,h_121,al_c,usm_0.66_1.00_0.01/bd5f7e_ab965e50c6eb46bc9baa6a522e85ea83.png
+http://stream.onworldtv.com/edge/liveorigin/sgn/index.m3u8
+|| http://origin.onworldtv.com:1935/liveorigin/sgn/playlist.m3u8
+
++
+[COLOR white]Việt Sóng Media[/COLOR] -- Atlanta, GA
+http://www.hongkongmkt.net/image/vietsonglogo.png
+http://68.235.35.243:1935/vietsongmedia/smil:vietsongmedia.smil/playlist.m3u8
+
+*
+[COLOR cyan]USA: Other[/COLOR]
+.
+.
+
+-
+[COLOR white]Phật Từ Bi TV[/COLOR]
+http://echipstore.net/logo/channels/PhatTuBi.png
+resolve://viettv24@ptb
+
++
+[COLOR white]Tin Lành TV[/COLOR] -- Santa Ana, CA
+http://img.onworldtv.com/460x260/poster/2015/11/13/746583-Tin-Lanh_TV.jpg
+http://stream.onworldtv.com/edge/liveorigin/tinlanh/index.m3u8
+|| http://origin.onworldtv.com:1935/liveorigin/tinlanh/playlist.m3u8
+
++
+[COLOR white]Viet Christian / Người Tin Lành[/COLOR] -- Seattle, WA
+https://pbs.twimg.com/profile_images/1546339264/vc-iphone_400x400.png
+mms://live.vietchristian.com/tv
+
++
+[COLOR white]ITV Home Shopping[/COLOR] -- Westminster, CA
+http://img.onworldtv.com/wxh//banner/2015/03/27/799918-ITV_Logo-2_copy.jpg
+http://stream.onworldtv.com/edge/liveorigin/itvshop/index.m3u8
+|| http://origin.onworldtv.com:1935/liveorigin/itvshop/playlist.m3u8
+
++
+[COLOR white]Nail &amp; Beauty Channel[/COLOR] -- Westminster, CA
+http://img.onworldtv.com/1180x665//poster/2016/01/28/559655-Banner_Nail_Beauty.png
+http://stream.onworldtv.com/edge/liveorigin/lexor/index.m3u8
+|| http://origin.onworldtv.com:1935/liveorigin/lexor/playlist.m3u8
+
++
+[COLOR white]Viet Global Mall TV[/COLOR] -- Garden Grove, CA
+http://www.lyngsat-logo.com/logo/tv/vv/viet_global_mall_us.png
+http://origin1-edge2.yourstreamlive.com:1935/live/yourstreamlive/out_956_2kr6rvfu/playlist.m3u8
+
+
+-
+[COLOR cyan]VIỆT TV24[/COLOR]
+.
+.
+
+-
+[COLOR white]Đồng Giao TV[/COLOR]
+https://yt3.ggpht.com/-5TD-pJoIQRY/AAAAAAAAAAI/AAAAAAAAAAA/oBUSns1u68U/s300-c-k-no-rj-c0xffffff/photo.jpg
+resolve://viettv24@dgtv
+
+-
+[COLOR white]Việt Media TV[/COLOR]
+http://www.viettv24.com/main/images/VietMediaTV_logo.jpg
+resolve://viettv24@vietmediatv
+
+-
+[COLOR white]Hài 24/7[/COLOR]
+http://echipstore.net/logo/Hai247.png
+resolve://viettv24@hai
+
+-
+[COLOR white]Sân Khấu &amp; Cuộc Đời[/COLOR]
+http://www.viettv24.com/main/images/skcd.jpg
+resolve://viettv24@cailuong
+
+-
+[COLOR white]Việt MTV[/COLOR]
+http://www.viettv24.com/main/images/Vmusic_logo.jpg
+resolve://viettv24@mtv
+
+-
+[COLOR white]Vpop TV[/COLOR]
+http://live-tv.im/wp-content/uploads/2014/02/vpop-tv.gif
+resolve://viettv24@vpoptv
+
+-
+[COLOR white]Việt TV24[/COLOR]
+https://lh6.ggpht.com/PwNPXqUFYHyySkXrmAYay5-uZxsIRVsesxpdm0xBUXFN1qhPpPZpdH_O4Kz-MwE0uDI=w300
+resolve://viettv24@viettv24
+
+
+*
+[COLOR grey] ---- + ------------------------------------------------------------------[/COLOR]
+.
+.
+
+
+*
+[COLOR cyan]Radio[/COLOR]
+.
+.
+
++
+[COLOR white]Radio Bolsa[/COLOR] -- Westminster, CA
+http://a1.mzstatic.com/us/r30/Purple1/v4/13/b1/42/13b142be-c0af-fddf-ba8c-ebe409b48b3a/icon175x175.png
+http://ice7.securenetsystems.net/RBVU?type=.flv
+
++
+[COLOR white]Saigon Radio 106.3 FM[/COLOR] -- Los Angeles, CA
+http://a4.mzstatic.com/us/r30/Purple/v4/36/31/ca/3631ca85-61a0-d0c7-2e00-8dad293c3808/icon175x175.png
+http://ice5.securenetsystems.net:80/KALI
+
++
+[COLOR white]Saigon Radio 1430 AM[/COLOR] -- San Jose, CA
+http://a4.mzstatic.com/us/r30/Purple/v4/36/31/ca/3631ca85-61a0-d0c7-2e00-8dad293c3808/icon175x175.png
+http://ice5.securenetsystems.net:80/KVVN
+
++
+[COLOR white]Saigon Radio 900 AM[/COLOR] -- Houston, TX
+http://a4.mzstatic.com/us/r30/Purple/v4/36/31/ca/3631ca85-61a0-d0c7-2e00-8dad293c3808/icon175x175.png
+http://ice5.securenetsystems.net:80/KREH
+
++
+[COLOR white]Saigon Radio Seattle[/COLOR] -- Seattle, WA
+https://static-media.streema.com/media/object-images/86174897f44a127c3d629ee8a8c8ddee.png
+http://170.75.194.209:8888
+
++
+[COLOR white]Thời Báo Radio[/COLOR] -- Toronto, ON
+https://lh3.ggpht.com/9DjpyjPok0utPrHtyxAopRejDhyTmYF_KdSAZ8Ox8DM9NSQmOqKTeNOH1f4C5tu4IA=w300
+http://209.250.131.2:8000/;stream.mp3
+
++
+[COLOR white]Tiếng Nước Tôi[/COLOR] -- San Jose, CA
+http://radiotiengnuoctoi.com/images/file/7_kxaLCa0QgBAC5m/w150/radio-tieng-nuoc-toi-video.jpg
+http://peter7.primcast.com:4088/;stream.mp3
+
++
+[COLOR white]Radio VNHN / VABC[/COLOR] -- Falls Church, VA
+http://vietnam-radio.com/resources/_wsb_119x119_Logo+Dai+VN-HN+1.png
+http://vpr.serverroom.us:7492/;stream.mp3/playlist.m3u8
+
+
+# END TEXT FILE #
